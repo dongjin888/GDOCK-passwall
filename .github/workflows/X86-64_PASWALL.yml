@@ -10,9 +10,9 @@ name: Build X8620210317包含PASSWALL
 on: 
   release:
     types: [published]
-  push:
-    branches: 
-      - master
+#  push:
+#    branches: 
+#      - master
   watch:
     types: [started]
 
