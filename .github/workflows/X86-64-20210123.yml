@@ -10,9 +10,9 @@ name: Build X86-64-20210317
 on: 
   release:
     types: [published]
-#  push:
-#    branches: 
-#      - master
+  push:
+    branches: 
+      - master
   watch:
     types: [started]
 
@@ -89,9 +89,9 @@ jobs:
         #=================================================
         #+++++++++++++++++++++++++++++++++++++++++++++++++
         cp -f X86.config ./lede/.config
-        chmod +x diy-newifi3.sh
+        chmod +x diy.sh
         cd lede
-        ../diy-newifi3.sh
+        ../diy.sh
         #++++++++++++++++++++++++++++++++++++++++++++++++
         #=================================================
         make defconfig
