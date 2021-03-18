@@ -88,7 +88,7 @@ jobs:
       run: |
         #=================================================
         #+++++++++++++++++++++++++++++++++++++++++++++++++
-        #cp -f X86.config ./lede/.config
+        #cp -f x86_20210317.config ./lede/.config
         chmod +x diy.sh
         cd lede
         ../diy.sh
@@ -118,5 +118,5 @@ jobs:
       uses: actions/upload-artifact@master
       with:
         #=================================================
-        name: X86-64-20210123
+        name: X86-64-20210318
         path: ./lede/bin
