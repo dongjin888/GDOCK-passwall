@@ -1,5 +1,5 @@
-# GDOCK
-自动从lean的lede源码clone并生成竞斗云、newifi3和x86-64位固件
+# 根据各位老板的经验学习一下，怎么自定义一个。
+这东西就是按套路来，但是…… 套路还是不停出问题。懒的深究了，比较偏门的一个技术
 
 我把原作者的代码(https://github.com/ljk4160/GDOCK) 进行了部分修改：
 ##### 1. 添加了build-newifi3.yml文件，并且在build-newifi3.yml文件中增加了下面的代码
