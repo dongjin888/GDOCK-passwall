@@ -4,15 +4,15 @@
 #=================================================
 
 #=================================================
-name: Build X86-64-20210317
+name: Build X86-64-20210317编译
 #=================================================
 
 on: 
   release:
     types: [published]
-  #push:
-    #branches: 
-      #- master
+  push:
+    branches: 
+      - master
   watch:
     types: [started]
 
