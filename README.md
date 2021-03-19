@@ -10,6 +10,7 @@ X86_64版本
 3.以上修改完后找到workflow文件夹，修改yml文件,即可自动编译固件，就是把yml文件中
 
 找到下面这段
+```
 on:
      release:
        types: [published]
